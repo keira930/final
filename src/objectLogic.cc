@@ -1,6 +1,8 @@
-#include "objectLogic.h"
+#include "../include/objectLogic.h"
 
-bool MoveObjectLogic::collision(unique_ptr<ObjectLogic>& obj){
-    if (complete_object->position)
+/*bool MoveObjectLogic::collision(unique_ptr<ObjectLogic> &obj){
+    if(complete_object->getPosition() == (obj->complete_object)->getPosition()){
+        
+    }
 
-}
+}*/

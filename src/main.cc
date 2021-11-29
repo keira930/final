@@ -1,10 +1,12 @@
 #include <ncurses.h>
-
+#include "../include/ncurseCon.h"
+#include "../include/board.h"
+using namespace std;
 int main() {
-    initscr();          /* Start curses mode          */
-    printw("Hello World !!!");  /* Print Hello World          */
-    refresh();          /* Print it on to the real screen */
-    getch();            /* Wait for user input */
-    endwin();           /* End curses mode        */
+    //nControl n1;
+    initscr();
+    Board b;
+    b.displayView();
+    endwin();
     return 0;
 }

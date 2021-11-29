@@ -1,4 +1,4 @@
-#include "controller.h"
+#include "../include/controller.h"
 
 Action Controller::getAction(){
     return action();

@@ -1,35 +1,51 @@
 #ifndef OBJECT_H
 #define OBJECT_H
-#include <deque>
-#include <cstdlib>
-#include <string>
-#include <iostream>
 #include <memory>
+#include <cstdlib>
 #include <utility>
-#include "model.h"
+#include <vector>
+#include "position.h"
 using namespace std;
-class Position{
-    public: float x, y, z;
-    public: Position(float _x, float _y, float _z):x{_x},y{_y},z{_z}{}
-    ~Position()=default;
-};
-class Object: public Model{//user define
-    protected: 
-        unique_ptr<Position::Position> position;
-    Object(unique_ptr<Position::Position>&& p):
-        position{std::forward<unique_ptr<Position::Position>>(p)}{}
-    public: 
-        unique_ptr<Position::Position> getPosition() {return std::move(position);}
-        unique_ptr<Position::Position> setPosition (const Position);
+
+class Objects{
+    protected:
+        string type;
+        unique_ptr<Position> position;
+        Objects(unique_ptr<Position> &&p):position{std::forward<unique_ptr<Position>>(p)}{}
+    public:
+        unique_ptr<Position> getPosition() {return std::move(position);}
+        void setPosition (float x,float y,float z) {position.reset(new Position(x,y,z));}
+        virtual ~Objects() {}
 };
 
-class SingelChar: public Object{
-    char s;
-
+class SingleObject: public Objects{
+    private:
+        char shape;
+    public:
+        SingleObject(char s,float x,float y,float z):Objects(make_unique<Position>(x,y,z))
+        {   
+            type="single";
+            shape = s;
+        }
+        char getShape() {return shape;}
 };
 
-class Rectangle: public Object{
-    float width, length;
+class BitmapObject : public Objects{
+    
+};
+
+class RectangleObject : public Objects{
+    private:
+        float width,height;//position is left top
+        unique_ptr<Position> rb;//right bottom
+    public:
+        RectangleObject(float w, float h, float x,float y,float z):
+            Objects(make_unique<Position>(x,y,z)){
+                type="rec";
+                width=w;
+                height=h;
+                rb=make_unique<Position>(x+w,y-h,z);
+            }
 
 };
 #endif

@@ -5,19 +5,27 @@
 #include <memory>
 #include <cstdlib>
 #include <utility>
+#include "position.h"
+#include "bounding.h"
 using namespace std;
-class ObjectLogic:public Model{
+class ObjectLogic{//inhereit Model?
     //Object Logic is actyally a model contains object with velocity and position
-    protected: unique_ptr<Object::Object> complete_object;
+    public:
+        unique_ptr<Objects> complete_object;
+        unique_ptr<BoundingBox> bounding;
+    public:
+       // unique_ptr<> getPosition() {return std::move(position);}
+       // void setPosition (float x,float y,float z) {position.reset(new Position(x,y,z));}
 
 };
 
-class StaticObjectLogic : public ObjectLogic{
+class StaticObject : public ObjectLogic{
 
 };
 
-class MoveObjectLogic : public ObjectLogic{
+class MoveObject: public ObjectLogic{
     float velocity;
+
     private:
         bool collision(unique_ptr<ObjectLogic>& obj);
 };

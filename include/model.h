@@ -1,33 +1,24 @@
 #ifndef MODEL_H
 #define MODEL_H
 #include "view.h"
+#include "position.h"
 #include <deque>
 #include <vector>
 #include <iostream>
-#include "object.h"
-#include "controller.h"
 #include <memory>
+#include <utility>
+#include <cstdio>
+#include <cstdlib>
 using namespace std;
 
 class Model{
-    protected:unique_ptr<Controller> control;
-   // unique_ptr<Object> (new Object()) player;
-    protected:vector<unique_ptr<View>> view;
-   // unique_ptr<Object> player;
-   // deque<unique_ptr<Object>>  NPC;
-
+    protected:
+       vector<unique_ptr<Model>> models;
     public:
-    //update a single view
-        void updateView(float _x, float _y, float _z,State _state);
-        void displayView();
-        Model(){}
+        Model()=default;
+        void addModel(unique_ptr<Model>);
+        virtual void updateModel(unique_ptr<Model>);
 };
 
-class ObjectModel: public Model{
-    
-};
 
-class BoardModel: public Model{
-
-};
 #endif
