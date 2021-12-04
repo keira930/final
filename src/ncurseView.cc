@@ -9,8 +9,19 @@ void nView::displayView(){
     getch();
 
 }
+void nView::updateView(){
+    int s=mapping.size();
+    for(int i=0;i<s;i++){
+        map<Position,char> temp=mapping.front();
+        for(auto it = temp.begin();it != temp.end(); ++it){
+           int x = (int)(it->first.getX());
+           int y = (int)(it->first.getY());
+           char b= temp[it->first];
+            mvwaddch(window,y,x,b);
+        }
+        wrefresh(window);
+        mapping.pop();
 
-//void nView::updateView(Position p, char a){
-
-//}
+    }
+}
 

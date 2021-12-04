@@ -11,6 +11,8 @@ class Objects{
     protected:
         string type;
         unique_ptr<Position> position;
+        float height;
+        char shape[];
         Objects(unique_ptr<Position> &&p):position{std::forward<unique_ptr<Position>>(p)}{}
     public:
         unique_ptr<Position> getPosition() {return std::move(position);}

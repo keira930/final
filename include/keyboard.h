@@ -11,6 +11,7 @@ using namespace std;
 class Keyboard : public Controller{
     std::istream &in;
     Action action() override;
+    
     public:
         Keyboard(std::istream & in = std::cin);
 

@@ -14,6 +14,9 @@ class ObjectLogic{//inhereit Model?
         unique_ptr<Objects> complete_object;
         unique_ptr<BoundingBox> bounding;
     public:
+        float getY();
+        float getX();
+        char getShape();
        // unique_ptr<> getPosition() {return std::move(position);}
        // void setPosition (float x,float y,float z) {position.reset(new Position(x,y,z));}
 

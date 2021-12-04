@@ -16,7 +16,7 @@ class View{//view is a field inside object
        // virtual void updateView(float _x, float _y, float _z)=0;
         virtual void displayView() = 0;
         virtual ~View()=default;
-        //virtual void updateView() =0;
+        virtual void updateView(int x,int y, char s) =0;
 };
 
 class ObjectView: public View{
