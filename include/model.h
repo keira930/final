@@ -1,7 +1,7 @@
 #ifndef MODEL_H
 #define MODEL_H
 #include "view.h"
-#include "position.h"
+#include "Point.h"
 #include <deque>
 #include <vector>
 #include <iostream>
