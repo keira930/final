@@ -15,12 +15,13 @@ namespace AGE{
         nControl(int fps):Controller(fps){
             Ncurses::setInputTimeout(fps);
         }
+        ~nControl(){}
         void initWindow();
 
     private:
         int _input() const override{ return getch();}
 
-};
+    };
 }
 
 #endif

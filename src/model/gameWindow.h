@@ -4,7 +4,7 @@
 #include "board.h"
 #include <memory>
 namespace AGE{
-    class Board;
+
     class Status;
     class Controller;
     class nControl;

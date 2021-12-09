@@ -73,99 +73,99 @@ CMakeFiles/snake.dir/src/age.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/age.cc.o: ../src/age.cc
 CMakeFiles/snake.dir/src/age.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snake.dir/src/age.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/age.cc.o -MF CMakeFiles/snake.dir/src/age.cc.o.d -o CMakeFiles/snake.dir/src/age.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/age.cc.o -MF CMakeFiles/snake.dir/src/age.cc.o.d -o CMakeFiles/snake.dir/src/age.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc
 
 CMakeFiles/snake.dir/src/age.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/age.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc > CMakeFiles/snake.dir/src/age.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc > CMakeFiles/snake.dir/src/age.cc.i
 
 CMakeFiles/snake.dir/src/age.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/age.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc -o CMakeFiles/snake.dir/src/age.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc -o CMakeFiles/snake.dir/src/age.cc.s
 
 CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o: ../src/controller/ncurseAdapt.cc
 CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o -MF CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o.d -o CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o -MF CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o.d -o CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc
 
 CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc > CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc > CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.i
 
 CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc -o CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc -o CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.s
 
 CMakeFiles/snake.dir/src/model/board.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/model/board.cc.o: ../src/model/board.cc
 CMakeFiles/snake.dir/src/model/board.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/snake.dir/src/model/board.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/board.cc.o -MF CMakeFiles/snake.dir/src/model/board.cc.o.d -o CMakeFiles/snake.dir/src/model/board.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/board.cc.o -MF CMakeFiles/snake.dir/src/model/board.cc.o.d -o CMakeFiles/snake.dir/src/model/board.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc
 
 CMakeFiles/snake.dir/src/model/board.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/model/board.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc > CMakeFiles/snake.dir/src/model/board.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc > CMakeFiles/snake.dir/src/model/board.cc.i
 
 CMakeFiles/snake.dir/src/model/board.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/model/board.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc -o CMakeFiles/snake.dir/src/model/board.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc -o CMakeFiles/snake.dir/src/model/board.cc.s
 
 CMakeFiles/snake.dir/src/model/gameWindow.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/model/gameWindow.cc.o: ../src/model/gameWindow.cc
 CMakeFiles/snake.dir/src/model/gameWindow.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/snake.dir/src/model/gameWindow.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/gameWindow.cc.o -MF CMakeFiles/snake.dir/src/model/gameWindow.cc.o.d -o CMakeFiles/snake.dir/src/model/gameWindow.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/gameWindow.cc.o -MF CMakeFiles/snake.dir/src/model/gameWindow.cc.o.d -o CMakeFiles/snake.dir/src/model/gameWindow.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc
 
 CMakeFiles/snake.dir/src/model/gameWindow.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/model/gameWindow.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc > CMakeFiles/snake.dir/src/model/gameWindow.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc > CMakeFiles/snake.dir/src/model/gameWindow.cc.i
 
 CMakeFiles/snake.dir/src/model/gameWindow.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/model/gameWindow.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc -o CMakeFiles/snake.dir/src/model/gameWindow.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc -o CMakeFiles/snake.dir/src/model/gameWindow.cc.s
 
 CMakeFiles/snake.dir/src/model/windowModel.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/model/windowModel.cc.o: ../src/model/windowModel.cc
 CMakeFiles/snake.dir/src/model/windowModel.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snake.dir/src/model/windowModel.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/windowModel.cc.o -MF CMakeFiles/snake.dir/src/model/windowModel.cc.o.d -o CMakeFiles/snake.dir/src/model/windowModel.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/model/windowModel.cc.o -MF CMakeFiles/snake.dir/src/model/windowModel.cc.o.d -o CMakeFiles/snake.dir/src/model/windowModel.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc
 
 CMakeFiles/snake.dir/src/model/windowModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/model/windowModel.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc > CMakeFiles/snake.dir/src/model/windowModel.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc > CMakeFiles/snake.dir/src/model/windowModel.cc.i
 
 CMakeFiles/snake.dir/src/model/windowModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/model/windowModel.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc -o CMakeFiles/snake.dir/src/model/windowModel.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc -o CMakeFiles/snake.dir/src/model/windowModel.cc.s
 
 CMakeFiles/snake.dir/src/view/ncurseView.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/src/view/ncurseView.cc.o: ../src/view/ncurseView.cc
 CMakeFiles/snake.dir/src/view/ncurseView.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snake.dir/src/view/ncurseView.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/view/ncurseView.cc.o -MF CMakeFiles/snake.dir/src/view/ncurseView.cc.o.d -o CMakeFiles/snake.dir/src/view/ncurseView.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/src/view/ncurseView.cc.o -MF CMakeFiles/snake.dir/src/view/ncurseView.cc.o.d -o CMakeFiles/snake.dir/src/view/ncurseView.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc
 
 CMakeFiles/snake.dir/src/view/ncurseView.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/src/view/ncurseView.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc > CMakeFiles/snake.dir/src/view/ncurseView.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc > CMakeFiles/snake.dir/src/view/ncurseView.cc.i
 
 CMakeFiles/snake.dir/src/view/ncurseView.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/src/view/ncurseView.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc -o CMakeFiles/snake.dir/src/view/ncurseView.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc -o CMakeFiles/snake.dir/src/view/ncurseView.cc.s
 
 CMakeFiles/snake.dir/demo/snake/snake.cc.o: CMakeFiles/snake.dir/flags.make
 CMakeFiles/snake.dir/demo/snake/snake.cc.o: ../demo/snake/snake.cc
 CMakeFiles/snake.dir/demo/snake/snake.cc.o: CMakeFiles/snake.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snake.dir/demo/snake/snake.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/demo/snake/snake.cc.o -MF CMakeFiles/snake.dir/demo/snake/snake.cc.o.d -o CMakeFiles/snake.dir/demo/snake/snake.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snake.dir/demo/snake/snake.cc.o -MF CMakeFiles/snake.dir/demo/snake/snake.cc.o.d -o CMakeFiles/snake.dir/demo/snake/snake.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc
 
 CMakeFiles/snake.dir/demo/snake/snake.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snake.dir/demo/snake/snake.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc > CMakeFiles/snake.dir/demo/snake/snake.cc.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc > CMakeFiles/snake.dir/demo/snake/snake.cc.i
 
 CMakeFiles/snake.dir/demo/snake/snake.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snake.dir/demo/snake/snake.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc -o CMakeFiles/snake.dir/demo/snake/snake.cc.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc -o CMakeFiles/snake.dir/demo/snake/snake.cc.s
 
 # Object files for target snake
 snake_OBJECTS = \

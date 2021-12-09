@@ -1,6 +1,6 @@
 #ifndef VIEW_H
 #define VIEW_H
-
+#include "../controller/ncurseAdapt.h"
 namespace AGE{
     namespace Ncurses{
         class Window;

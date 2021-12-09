@@ -11,7 +11,7 @@ class Controller{//Timer and user should do all the work.
         
     public:
         Controller(int FPS): _fps {FPS} {}
-        ~Controller() = default;
+         ~Controller() = default;
         void setFPS(int FPS) { _fps = FPS; }
         int getInput() const { return _input(); }
     private:

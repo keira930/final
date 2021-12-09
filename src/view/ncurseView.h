@@ -2,7 +2,6 @@
 #define NCURSEVIEW_H
 #include "view.h"
 #include <ncurses.h>
-
 #include "../common/point.h"
 #include <map>
 #include <queue>
@@ -20,9 +19,9 @@ namespace AGE{
    
         public:
         nView(WindowWithView &w1);
-            ~nView() override;
+        ~nView() override;
 
-            void displayView(Ncurses::Window& w);
+        void displayView(Ncurses::Window& w) override;
         // void updateView(unique_ptr<Point> p, char a);
        
 };

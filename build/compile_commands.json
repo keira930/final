@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/age.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/age.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/age.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/controller/ncurseAdapt.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/controller/ncurseAdapt.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/model/board.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/model/board.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/model/gameWindow.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/model/gameWindow.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/model/windowModel.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/model/windowModel.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/src/view/ncurseView.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/src/view/ncurseView.cc"
+},
+{
+  "directory": "/Users/keiraxing/Documents/CS246E/Final/final/build",
+  "command": "/usr/bin/clang++  -I/Users/keiraxing/Documents/CS246E/Final/final/src -I/Users/keiraxing/Documents/CS246E/Final/final/src/common -I/Users/keiraxing/Documents/CS246E/Final/final/src/controller -I/Users/keiraxing/Documents/CS246E/Final/final/src/model -I/Users/keiraxing/Documents/CS246E/Final/final/src/view -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6   -g -std=c++14 -Wall -o CMakeFiles/snake.dir/demo/snake/snake.cc.o -c /Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc",
+  "file": "/Users/keiraxing/Documents/CS246E/Final/final/demo/snake/snake.cc"
+}
+]

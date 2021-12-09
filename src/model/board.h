@@ -13,15 +13,13 @@ using namespace std;
 enum State{player=0,NPC,WhiteSpace};
 
 namespace AGE{
-    class Point;
     class WindowModel;
     class WindowWithView;
     class Board:public WindowWithView{//actual game playground, update everytime
 
         //unique_ptr<nView> m_view;
         public:
-            Board(Point point):WindowModel{point,25,80},
-    WindowWithView(point,25,80){}
+            Board(Point point);
             /*void updateView();//add each objects' shape inside m_view.final_map
             void displayView();
             void addStaticObject(unique_ptr<StaticObject> s);
@@ -30,7 +28,7 @@ namespace AGE{
             void destoryStaticObject();
             void updateObject();
             void go();*/
-            ~Board() override {}
+            ~Board() {}
 
     };
 }

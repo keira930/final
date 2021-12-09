@@ -1,14 +1,10 @@
 #ifndef WINDOW_MODEL_H
 #define WINDOW_MODEL_H
-using namespace std;
 #include <memory>
-#include "../common/point.h"
+#include "../controller/ncurseAdapt.h"
+using namespace std;
 namespace AGE{
-    namespace Ncurses{
-        class Window;
-    }
-
-    class Point;
+    
     class Controller;
     class nView;
     class nControl;
@@ -31,6 +27,7 @@ namespace AGE{
             unique_ptr<Controller> _controller;
         public:
             WindowWithController(Point pos, int width, int height);
+            ~WindowWithController() override;
             int getInput() const;
             void setController(std::unique_ptr<Controller>&& controller);
     };
