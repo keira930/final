@@ -1,8 +1,8 @@
 #ifndef AGE_H
 #define AGE_H
 #include <memory>
-#include "../common/timer.h"
-#include "../controller/ncurseAdapt.h"
+#include "common/timer.h"
+#include "controller/ncurseAdapt.h"
 
 namespace AGE{
 

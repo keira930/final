@@ -8,7 +8,9 @@ namespace AGE{
             refresh();
            
         }
-
+        void setInputTimeout(int timeout){
+            //TODO:
+        }
         Window::Window(int width, int height, int start_x,int start_y):
         _win{newwin(width, height, start_y, start_x)},_width{width},_height{height},
         position{start_x,start_y}{}

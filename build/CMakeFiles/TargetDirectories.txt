@@ -1,0 +1,3 @@
+/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles/snake.dir
+/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles/edit_cache.dir
+/Users/keiraxing/Documents/CS246E/Final/final/build/CMakeFiles/rebuild_cache.dir

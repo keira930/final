@@ -5,7 +5,7 @@
 //#include "objectLogic.h"
 #include <cstdlib>
 #include <iostream>
-#include "ncurseView.h"
+#include "../view/ncurseView.h"
 #include "windowModel.h"
 #include "../common/point.h"
 using namespace std;

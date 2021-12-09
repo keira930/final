@@ -1,5 +1,5 @@
 #include "age.h"
-#include "../model/gameWindow.h"
+#include "model/gameWindow.h"
 
 namespace AGE{
     void Age::gameloop(){

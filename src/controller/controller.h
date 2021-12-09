@@ -3,9 +3,6 @@
 #include <memory>
 #include <iostream>
 #include <cstdlib>
-//#include "model.h"
-#include "action.h"
-#include "timer.h"
 using namespace std;
 namespace AGE{
 class Controller{//Timer and user should do all the work. 

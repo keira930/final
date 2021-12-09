@@ -13,9 +13,11 @@ aux_source_directory(src SRC_LIST)
 aux_source_directory(src/controller SRC_LIST)
 aux_source_directory(src/model SRC_LIST)
 aux_source_directory(src/view SRC_LIST)
+aux_source_directory(src/common SRC_LIST)
 
 include_directories(
 	include
+	include/common
 	include/controller
 	include/model
 	include/view

@@ -2,14 +2,17 @@
 #define NCURSEVIEW_H
 #include "view.h"
 #include <ncurses.h>
-#include "objectLogic.h"
-#include "point.h"
+
+#include "../common/point.h"
 #include <map>
 #include <queue>
 #include <iostream>
 #include <cstdlib>
 #include <memory>
 namespace AGE{
+    namespace Ncurses {
+        class Window;
+    }
     class WindowWithView;
     class nView:public View{
         private:

@@ -5,9 +5,10 @@
 #include <queue>
 #include <map>
 #include <ctime>
-
+#include "ncurseAdapt.h"
 using namespace std;
 namespace AGE{
+    
     class nControl:public Controller{
     
     public:
